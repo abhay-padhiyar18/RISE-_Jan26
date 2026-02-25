@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3 HTML_Forms</title>
+    
+</head>
+<body>
+    <form action="submit.html" method="post">
+
+
+        <fieldset>
+            <legend>User Registration Form</legend>
+
+
+            <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter ur Fullname" required><br><br>
+            </div>
+
+            <div>
+                <label for="about">About Yourself:</label>
+                <textarea name="about" rows="5" cols="50" placeholder="Tell us about yourself..."></textarea> <br><br>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" minlength="8"
+                    required>
+                <br><br>
+            </div>
+
+
+
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                <br><br>
+            </div>
+
+            <div>
+
+                <label for="website">Website:</label>
+                <input type="url" id="website" name="website" placeholder="Enter URL Site (optional)"><br><br>
+                
+            </div>
+
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob"  max="2005-12-31" required>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="avl_time">Available Time</label>
+                <input type="time" id="avl_time" name="avl_time"  min="09:00" max="18:30" required>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="join_month"> Joining Month:</label>
+                <input type="month" id="join_month" name="join_month" default="2024-01-09" required>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="training">Training Week:</label>
+                <input type="text" id="training" name="training" readonly value="2026-W07" readonly>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="slot">Interview Slot:</label>
+                <input type="datetime-local" id="slot" name="slot" placeholder="Enter Interview Slot">
+                <br><br>
+            </div>
+
+            <div>
+                <label for="tech">Technology :</label>
+
+                <input type="checkbox" id=".net" name="tech" value=".net">
+                <label for=".net">.NET</label>
+                <input type="checkbox" id="angular" name="tech" value="Angular">
+                <label for="angular">Angular</label>
+                <input type="checkbox" id="java" name="tech" value="Java">
+                <label for="java">Java</label>
+                <input type="checkbox" id="react" name="tech" value="React">
+                <label for="react">ReactJS</label>
+                <input type="checkbox" id="QA" name="tech" value="QA">
+                <label for="QA">QA</label>
+
+                <br><br>
+                
+            </div>
+
+            <div>
+                <label for="cv">Upload CV:</label>
+                <input type="file" id="cv" name="cv" accept=".pdf" required><br><br>
+            </div>
+
+            <div>
+                <label for="usrid">User ID:</label>
+                <input type="text" id="usrid" name="usrid" placeholder="Enter User ID" value="RS02565" disabled>
+                <br><br>
+
+            </div>
+
+
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+</html>
+ 
