@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: url(./image.png);
+  background-size: cover;
+}
+.box1 {
+  background-color: rgb(233, 14, 211);
+  border: 2px solid black;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 25px;
+  left: 500px;
+  right: 40px;
+  transform: skew(30deg);
+  font-size: larger;
+}
+
+.box2 {
+  border: 1px solid black;
+  width: 80px;
+  height: 130px;
+  background-color: lightpink;
+  position: absolute;
+  top: 150px;
+  left:500px;
+  transform: rotate(90deg);
+  z-index: 2;
+}
+
+.box3 {
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  background-color: lightgoldenrodyellow;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.box3:hover {
+  width: 150px;
+  background-color: royalblue;
+}
+
+.box4{
+  background-color: rgb(112, 107, 6);
+  border: 2px solid black;
+  height: 100px;
+  width: 50px;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.box5 {
+  background-color: rgb(112, 107, 6);
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 10px;
+  left: 150px;
+}
+
+.box6 {
+  border: 1px solid black;
+  width: 90px;
+  height: 90px;
+  background-color: lightseagreen;
+  position: absolute;
+  top: 180px;
+  left: 520px;
+  z-index: 1;
+}
+
+.box6:hover {
+  z-index: 3;
+  background-color: royalblue;
+}
+
+.box7 {
+  background-color: rgb(112, 107, 6);
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+p {
+  margin: 20px;
+  font-size: 20px;
+}
